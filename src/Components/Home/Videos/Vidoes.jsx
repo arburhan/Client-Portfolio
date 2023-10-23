@@ -7,6 +7,9 @@ const Videos = () => {
 
     return (
         <section className=" py-8" >
+            <div className="text-center my-10" >
+                <h1 className=" text-4xl" >Videos</h1>
+            </div>
             {/* play button */}
             <div className=" absolute left-[200px] z-50 pt-20" >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className=" w-20">
@@ -29,7 +32,7 @@ const Videos = () => {
                 </div>
             </div>
             <div className="text-center py-12" >
-                <button className="btn btn-primary" >Watch More</button>
+                <button className="btn btn-primary" >Watch More Videos</button>
             </div>
         </section>
     );
