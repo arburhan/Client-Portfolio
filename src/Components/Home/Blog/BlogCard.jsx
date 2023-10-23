@@ -12,10 +12,13 @@ const BlogCard = ({ blog }) => {
                     {blog.name.length > 25 ? blog.name.slice(0, 18) + "..." : blog.name}
                     <div className="badge badge-secondary">NEW</div>
                 </h2>
-                <p>{blog.description.length > 130 ? blog.description.slice(0, 120) + "..." : blog.description}</p>
+                <p>{blog.description.length > 140 ? blog.description.slice(0, 130) + "..." : blog.description}</p>
                 <div className="card-actions justify-end">
                     <div className="badge badge-outline">{blog.category}</div>
                     <div className="badge badge-outline">Products</div>
+                </div>
+                <div className="card-actions justify-center pt-4">
+                    <button className="btn btn-sm btn-primary">Read Now</button>
                 </div>
             </div>
         </div>

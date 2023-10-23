@@ -11,7 +11,7 @@ import seven from '@/assets/images/banner/7.jpg'
 const Banner = () => {
     return (
         <section>
-            <div autoPlay={true} interval={200} className="carousel w-full ">
+            <div autoPlay interval={200} className="carousel w-full ">
                 <div id="slide1" className="carousel-item relative w-full">
                     <Image src={first} className="w-full h-[80vh]" alt='feature carousel' />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
