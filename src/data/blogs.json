@@ -1,0 +1,26 @@
+[
+    {
+        "_id": 1,
+        "name": "First Blog Post",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
+        "image": "https://i.ibb.co/hYqhHzD/2679-22-F-v3.png",
+        "category": "Fiction",
+        "date": "21/10/2023"
+    },
+    {
+        "_id": 2,
+        "name": "USA Rand Movement",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
+        "image": "https://i.ibb.co/hYqhHzD/2679-22-F-v3.png",
+        "category": "Fiction",
+        "date": "21/10/2023"
+    },
+    {
+        "_id": 3,
+        "name": "Nothing about this blog",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
+        "image": "https://i.ibb.co/hYqhHzD/2679-22-F-v3.png",
+        "category": "Fiction",
+        "date": "21/10/2023"
+    }
+]
