@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-//01730171628
+
 const CourseCard = () => {
     return (
         <div className="card w-96 glass">
