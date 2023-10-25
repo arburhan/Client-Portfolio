@@ -5,7 +5,7 @@ const CourseCard = () => {
     return (
         <div className="card w-96 glass">
             <figure>
-                <Image src={course1} alt='course'></Image>
+                <Image loading='lazy' src={course1} alt='course'></Image>
             </figure>
             <div className="card-body">
                 <h2 className="card-title">Life hack</h2>

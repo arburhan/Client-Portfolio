@@ -5,7 +5,7 @@ const BooksCard = ({ booksImage, book }) => {
     return (
         <div className="card card-side bg-base-100 shadow-xl">
             <figure>
-                <Image src={booksImage} alt='books image' className=' w-[150px] rounded-lg' />
+                <Image loading='lazy' src={booksImage} alt='books image' className=' w-[150px] rounded-lg' />
             </figure>
             <div className="card-body">
                 <h2 className="card-title">{book.name}</h2>

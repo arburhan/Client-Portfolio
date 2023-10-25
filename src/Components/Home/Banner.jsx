@@ -13,28 +13,28 @@ const Banner = () => {
         <section>
             <div autoPlay interval={200} className="carousel w-full ">
                 <div id="slide1" className="carousel-item relative w-full">
-                    <Image src={first} className="w-full h-[80vh]" alt='feature carousel' />
+                    <Image loading='lazy' src={first} className="w-full h-[80vh]" alt='feature carousel' />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" className="btn btn-circle">❮</a>
                         <a href="#slide2" className="btn btn-circle">❯</a>
                     </div>
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
-                    <Image src={second} className="w-full h-[80vh]" alt='feature carousel' />
+                    <Image loading='lazy' src={second} className="w-full h-[80vh]" alt='feature carousel' />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" className="btn btn-circle">❮</a>
                         <a href="#slide3" className="btn btn-circle">❯</a>
                     </div>
                 </div>
                 <div id="slide3" className="carousel-item relative w-full">
-                    <Image src={third} className="w-full h-[80vh]" alt='feature carousel' />
+                    <Image loading='lazy' src={third} className="w-full h-[80vh]" alt='feature carousel' />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" className="btn btn-circle">❮</a>
                         <a href="#slide4" className="btn btn-circle">❯</a>
                     </div>
                 </div>
                 <div id="slide4" className="carousel-item relative w-full">
-                    <Image src={four} className="w-full h-[80vh]" alt='feature carousel' />
+                    <Image loading='lazy' src={four} className="w-full h-[80vh]" alt='feature carousel' />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide3" className="btn btn-circle">❮</a>
                         <a href="#slide1" className="btn btn-circle">❯</a>

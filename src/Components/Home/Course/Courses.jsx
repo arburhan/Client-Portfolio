@@ -13,7 +13,7 @@ const Courses = () => {
             <div className="flex flex-col md:flex-row justify-evenly items-center">
                 <div className="card w-96 glass">
                     <figure>
-                        <Image src={course1} alt='course' className=" h-64"></Image>
+                        <Image loading='lazy' src={course1} alt='course' className=" h-64"></Image>
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">Life hack</h2>
@@ -25,7 +25,7 @@ const Courses = () => {
                 </div>
                 <div className="card w-96 glass">
                     <figure>
-                        <Image src={course2} alt='course' className=" h-64"></Image>
+                        <Image loading='lazy' src={course2} alt='course' className=" h-64"></Image>
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">Life hack</h2>
@@ -37,7 +37,7 @@ const Courses = () => {
                 </div>
                 <div className="card w-96 glass">
                     <figure>
-                        <Image src={course3} alt='course' className=" h-64"></Image>
+                        <Image loading='lazy' src={course3} alt='course' className=" h-64"></Image>
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">Life hack</h2>
