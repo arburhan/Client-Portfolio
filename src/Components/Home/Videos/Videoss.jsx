@@ -7,7 +7,7 @@ const Videoss = () => {
 
     return (
         <div>
-            <Modals name="My YouTube Video" videoId="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
+            <Modals name="click me for console" videoId="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
         </div>
     );
 };

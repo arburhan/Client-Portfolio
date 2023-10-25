@@ -4,11 +4,12 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import ReactYouTube from "react-youtube";
 
-const Modals = ({ name, videoId }) => {
+const Modals = ({ name, videoId, setCatch }) => {
     console.log('Modals component is rendering');
     const [isOpen, setIsOpen] = useState(false);
 
     const handleOpenModal = (props) => {
+        setCatch("hello");
         console.log(props);
         setIsOpen(true);
     };
@@ -23,7 +24,7 @@ const Modals = ({ name, videoId }) => {
     return (
         <div>
             <button className="btn" onClick={() => handleOpenModal("hi")}>{name}</button>
-            <Modal
+            {/*  <Modal
                 isOpen={isOpen}
                 onRequestClose={handleCloseModal}
                 contentLabel="Modal with YouTube video"
@@ -51,7 +52,7 @@ const Modals = ({ name, videoId }) => {
                     <button type="button" className="btn btn-primary">Play again</button>
                     <button type="button" className="btn btn-secondary" onClick={handleCloseModal}>Close</button>
                 </div>
-            </Modal>
+            </Modal> */}
         </div>
     );
 };
