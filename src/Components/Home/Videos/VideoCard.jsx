@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 
 const VideoCard = ({ videoUrl, thumbnailUrl }) => (
     <div>
@@ -9,3 +9,4 @@ const VideoCard = ({ videoUrl, thumbnailUrl }) => (
 );
 
 export default VideoCard;
+ */

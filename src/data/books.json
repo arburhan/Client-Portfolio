@@ -42,27 +42,5 @@
         "category": "Fiction",
         "rating": "4",
         "date": "21/10/2023"
-    },
-    {
-        "_id": 5,
-        "name": "Programming in CPP",
-        "author": "AR Burhan",
-        "publication": "Gardian Publications",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
-        "image": "https://i.ibb.co/hYqhHzD/2679-22-F-v3.png",
-        "category": "Fiction",
-        "rating": "4",
-        "date": "21/10/2023"
-    },
-    {
-        "_id": 6,
-        "name": "Master in js",
-        "author": "AR Burhan",
-        "publication": "Gardian Publications",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
-        "image": "https://i.ibb.co/hYqhHzD/2679-22-F-v3.png",
-        "category": "Fiction",
-        "rating": "4",
-        "date": "21/10/2023"
     }
 ]

@@ -3,13 +3,12 @@ import Image from 'next/image';
 import course1 from '@/assets/images/courses/course1.jpg';
 import course2 from '@/assets/images/courses/course2.jpg';
 import course3 from '@/assets/images/courses/course3.jpg';
+import Title from '@/Components/Shared/Title';
 
 const Courses = () => {
     return (
         <section className='py-10' >
-            <div className="text-center my-10" >
-                <h1 className=" text-4xl" >Courses</h1>
-            </div>
+            <Title name={"Courses"} />
             <div className="flex flex-col md:flex-row justify-evenly items-center">
                 <div className="card w-96 glass">
                     <figure>

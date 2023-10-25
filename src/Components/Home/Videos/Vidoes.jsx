@@ -4,15 +4,12 @@ import Image from "next/image";
 import thumb1 from '@/Components/Home/Videos/Thumnail/thumb1.jpg';
 import thumb2 from '@/Components/Home/Videos/Thumnail/thumb2.jpg';
 import thumb3 from '@/Components/Home/Videos/Thumnail/thumb3.jpg';
+import Title from "@/Components/Shared/Title";
 const Videos = () => {
-    const videoRef = useRef(null);
     const [videoUrl, setVideoUrl] = useState('');
-    console.log(videoUrl);
     return (
         <section className=" py-8" >
-            <div className="text-center my-10" >
-                <h1 className=" text-4xl" >Videos</h1>
-            </div>
+            <Title name={"Videos"} />
 
             {/* play button */}
             <lebel type="button"

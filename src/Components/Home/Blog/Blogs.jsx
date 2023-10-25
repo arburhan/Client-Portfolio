@@ -2,14 +2,13 @@ import React from "react";
 import useSWR from 'swr';
 import blogData from '@/data/blogs.json';
 import BlogCard from "./BlogCard";
+import Title from "@/Components/Shared/Title";
 
 
 const Blogs = () => {
     return (
         <section className="py-12" >
-            <div className="text-center my-10" >
-                <h1 className=" text-4xl" >Blogs</h1>
-            </div>
+            <Title name={"Blogs"} />
             <div className="flex flex-col md:flex-row justify-evenly items-center" >
                 {
                     blogData.map(blog => <BlogCard key={blog._id} blog={blog} />)
