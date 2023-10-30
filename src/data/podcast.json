@@ -1,0 +1,66 @@
+[
+    {
+        "_id": 1,
+        "name": "Uniform Resources Locator",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
+        "image": "https://placekitten.com/640/360",
+        "category": "Politics",
+        "date": "21/10/2023"
+    },
+    {
+        "_id": 2,
+        "name": "What is Episode",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
+        "image": "https://placekitten.com/640/360",
+        "category": "Politics",
+        "date": "21/10/2023"
+    },
+    {
+        "_id": 3,
+        "name": "The Meaning of Podcast",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
+        "image": "https://placekitten.com/640/360",
+        "category": "Politics",
+        "date": "21/10/2023"
+    },
+    {
+        "_id": 4,
+        "name": "Uniform Resources Locator",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
+        "image": "https://placekitten.com/640/360",
+        "category": "Politics",
+        "date": "21/10/2023"
+    },
+    {
+        "_id": 5,
+        "name": "What is Episode",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
+        "image": "https://placekitten.com/640/360",
+        "category": "Politics",
+        "date": "21/10/2023"
+    },
+    {
+        "_id": 6,
+        "name": "The Meaning of Podcast",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
+        "image": "https://placekitten.com/640/360",
+        "category": "Politics",
+        "date": "21/10/2023"
+    },
+    {
+        "_id": 7,
+        "name": "What is Episode",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
+        "image": "https://placekitten.com/640/360",
+        "category": "Politics",
+        "date": "21/10/2023"
+    },
+    {
+        "_id": 8,
+        "name": "The Meaning of Podcast",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eligendi earum provident iusto minus animi, necessitatibus veniam nam. Voluptates, aliquam?",
+        "image": "https://placekitten.com/640/360",
+        "category": "Politics",
+        "date": "21/10/2023"
+    }
+]
